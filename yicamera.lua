@@ -3,7 +3,7 @@ gpio.mode(1,gpio.INPUT)
 gpio.mode(0,gpio.OUTPUT)
 gpio.write(0,gpio.HIGH)
 wifi.setmode(wifi.STATION)
-wifi.sta.config("yicamera","11111111")
+wifi.sta.config("yicamera","11111111")--SSID y contraseña de la camara.
 permiso = '{"msg_id":257,"token":0}'
 print(permiso)
 tomarFoto = '{"msg_id":769,"token":1}'
